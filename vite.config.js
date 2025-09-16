@@ -10,5 +10,5 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  base: '/cotizador-prestamos',
+  base: '/cotizador-prestamos/',
 });
