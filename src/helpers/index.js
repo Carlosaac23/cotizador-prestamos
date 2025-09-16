@@ -6,7 +6,7 @@ export function formatMoney(value) {
   return formatter.format(value);
 }
 
-export function calculateTotalToPay(quantity, term) {
+export function calculateTotalPay(quantity, term) {
   let total;
 
   if (quantity < 5000) {
